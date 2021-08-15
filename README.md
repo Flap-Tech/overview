@@ -1,6 +1,8 @@
 # Flap-Tech
 
-## The Flap-Tech community is a community of curious, research-minded individuals dedicated to self-improvement.
+### The Flap-Tech community is a community of curious, research-minded individuals dedicated to self-improvement.
+
+![2048px-Unofficial_JavaScript_logo_2 svg](https://user-images.githubusercontent.com/57585087/129492138-f9591594-eb14-4ba1-8587-7d8ebc521c6c.png)
 
 The projects we will do and the technologies we will learn will be on JavaScript and JavaScript technologies.
 
