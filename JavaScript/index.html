@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/jpg" href="img/js.jpg" />
+  <title>✨JavaScript✌</title>
+</head>
+
+<body>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      border: none;
+      text-decoration: none;
+      box-sizing: border-box;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+    * {
+      text-decoration: none;
+      -webkit-overflow-scrolling: touch;
+      font-family: "PT Serif", serif;
+    }
+
+    *:focus {
+      outline: 0;
+    }
+
+    body {
+      background: rgba(242, 242, 242, 0.1);
+    }
+
+    .projects {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .projects .title {
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .projects .title h1 {
+      font-weight: 700;
+      font-size: 4rem;
+      padding-left: .5rem;
+      padding-right: .5rem;
+      margin-bottom: 1rem;
+    }
+
+    @media only screen and (max-width: 356px) {
+      body {
+        font-size: 14px;
+      }
+
+      .projects .title h1 {
+        font-weight: 700;
+        font-size: 3rem;
+      }
+    }
+
+    .projects .title p {
+      font-size: 1rem;
+      width: 75%;
+      margin-left: 1rem;
+      margin-right: auto;
+      margin-bottom: .5rem;
+    }
+
+    .projects .title p a {
+      color: rgba(255, 0, 0, 0.9);
+    }
+
+    .projects .title p a:hover {
+      text-decoration: underline;
+    }
+
+    .projects ul {
+      padding-left: .5rem;
+      padding-right: .5rem;
+    }
+
+    .projects ul li {
+      text-decoration: line-through;
+      transition: 400ms text-decoration;
+      margin-bottom: .5rem;
+    }
+
+    .projects ul li:hover {
+      text-decoration: none;
+    }
+
+    .projects ul li a {
+      color: rgba(0, 128, 0, 0.8);
+    }
+
+    .projects ul li a:active {
+      color: black;
+    }
+
+    /* details */
+    details>summary {
+      list-style-type: none;
+    }
+
+    details>summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details>summary::before {
+      content: '▶️';
+    }
+
+    details[open]>summary::before {
+      content: '🔽';
+    }
+
+    details {
+      padding: 0.5rem;
+      display: inline-block;
+      cursor: pointer;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    details[open]>summary {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+  <div class="projects">
+    <div class="title">
+      <h1>JavaScript</h1>
+      <p>Open Source projects are a project to improve your JavaScript knowledge with JavaScript documentations, design
+        patterns, books.</p>
+    </div>
+    <ul>
+      <li>
+        <a target="_blank"
+          href="https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md#javascript"
+          title="📚 Freely available programming books">
+          <h3>📚Free JavaScript(Other Programming Languages) Books</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://pepa.holla.cz/wp-content/uploads/2016/08/Pro-JavaScript-Design-Patterns.pdf"
+          title="Pro JavaScript Design Patterns Pdf">
+          <h3>✌Pro JavaScript Design Patterns </h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/trekhleb/javascript-algorithms"
+          title="📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings">
+          <h3>📝javascript-algorithms</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/sorrycc/awesome-javascript"
+          title="🐢 A collection of awesome browser-side JavaScript libraries, resources and shiny things.">
+          <h3>🐢awesome-javascript</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/"
+          title="Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This module includes projects where you will learn how to manipulate the DOM, use object-oriented programming principles, and build single page applications with React.">
+          <h3>⚡THE ODIN PROJECT</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://dev.to/lydiahallie/series/3341"
+          title="JavaScript Visualized Series' Articles by Lydia Hallie">
+          <h3>🔥JavaScript Visualized Series' Articles by Lydia Hallie</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/getify/You-Dont-Know-JS"
+          title="A book series on JavaScript. @YDKJS on twitter.">
+          <h3>👍You Don't Know JavaScript</h3>
+        </a>
+      </li>
+      <li>
+      <li>
+        <a target="_blank" href="https://github.com/lydiahallie/javascript-questions"
+          title="A long list of (advanced) JavaScript questions, and their explanations ✨">
+          <h3>🤞javascript-questions</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/ryanmcdermott/clean-code-javascript"
+          title="🛁 Clean Code concepts adapted for JavaScript">
+          <h3>🛁clean-code-javascript</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/denysdovhan/wtfjs"
+          title="🤪 A list of funny and tricky JavaScript examples">
+          <h3>👏Airbnb-Style-Guide</h3>
+        </a>
+      </li>
+      <li>
+      <li>
+        <a target="_blank" href="https://github.com/airbnb/javascript" title="JavaScript Style Guide">
+          <h3>🤪wtfjs</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/mbeaudru/modern-js-cheatsheet"
+          title="Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.">
+          <h3>😎modern-js-cheatsheet</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/goldbergyoni/javascript-testing-best-practices"
+          title="🚢Comprehensive and exhaustive JavaScript & Node.js testing best practices (May 2021)">
+          <h3>🚢javascript-testing-best-practices</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/leonardomso/33-js-concepts"
+          title="📜 33 JavaScript concepts every developer should know.">
+          <h3>📜33-js-concepts</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/elsewhencode/project-guidelines"
+          title="A set of best practices for JavaScript projects">
+          <h3>💯project-guidelines</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://roadmap.sh/"
+          title="Roadmap to becoming a web developer in 2021. Step by step guides and paths to learn different tools or technologies">
+          <h3>🗺️Developer Roadmaps</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/AllThingsSmitty/must-watch-javascript"
+          title="A useful list of must-watch talks about JavaScript">
+          <h3>📺must-watch-javascript</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/andrew--r/channels"
+          title="📺 A collection of useful YouTube channels for javascript developers and web designers">
+          <h3>🎬channels</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.youtube.com/playlist?list=PL_Z0TaFYSF3J0nQqRjCpue2uIFcM_KfsG"
+          title="🎬Javascriptin İlginç Dünyası Tarık Güney">
+          <h3>🎬Javascriptin İlginç Dünyası</h3>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX"
+          title="Pure JavaScript PlayList with Traversy Media">
+          <h3>📼JavaScript YouTube PlayList(Traversy Media)</h3>
+        </a>
+      </li>
+    </ul>
+    <details>
+      <summary><b>More(Javascript Threads)...</b></summary>
+      <ul>
+        <li>
+          <a target="_blank" href="./More(Javascript Threads)/1-JavaScript-Crash-Course-For-Beginners/index.html">
+            <h3>01-JavaScript-Crash-Course-For-Beginners</h3>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="./More(Javascript Threads)/2-JavaScript-DOM-Crash-Course/dom-3/index.html">
+            <h3>02-JavaScript-DOM-Crash-Course</h3>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="./More(Javascript Threads)/4-JavaScript-BookList-App-No-Frameworks/index.html">
+            <h3>04-JavaScript-BookList-App-No-Frameworks</h3>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="./3-es6/index.html">
+            <h3>03-ES6</h3>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="./More(Javascript Threads)/5-JavaScript-Understanding-the-WeirdParts/objects/object/index.html">
+            <h3>05-Objects</h3>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="./More(Javascript Threads)/6-Fetch-API-Introduction/index.html">
+            <h3>06-Fetch-API-Introduction</h3>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="./">
+            <h3>To be continuous...</h3>
+          </a>
+        </li>
+      </ul>
+    </details>
+  </div>
+</body>
+
+</html>
