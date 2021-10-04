@@ -14,7 +14,7 @@ mongoDB and mongoose as Database
 
 - [ ] Learn HTML-CSS
 - [ ] Learn JavaScript basics
-- [ ] Learn Vue.js
+- [ ] Learn Vue.js or React.js
 - [ ] Learn Node.js
 - [ ] Learn mongoDB, mongoose
 - [ ] Make Projects
